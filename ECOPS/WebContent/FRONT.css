@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+#c
+{
+	background-color:#9C9;
+	height:200px;
+}
+.body
+{
+	background-color:rgb(241,248,12);";	
+}
+.form
+{
+	background-color:#0FF;
+	height:300px;
+}
+.btn
+{
+	background-color:#0FF;
+	height:130px;
+}
+.home
+{
+	font-size:30px;
+	background-color:#CF0;
+	height:70px;
+	width:190px;
+}
+.ps
+{
+	font-size:28px;
+	background-color:#F69;
+	height:70px;
+	width:190px;	
+}
+.admin
+{
+	font-size:30px;
+	background-color:#F90;
+	height:70px;
+	width:190px;
+}
+.reg
+{
+	font-size:30px;
+    background-color:#3F3;
+	height:70px;
+	width:190px;	
+}
+.cops
+{
+	font-size:30px;
+	background-color:#3CF;
+	height:70px;
+	width:180px;
+}
+
+.law
+{
+	font-size:30px;
+	background-color:#CF3;
+	height:70px;
+	width:180px;
+}
+.about
+{
+	font-size:29px;
+    background-color:#CCC;
+	height:70px;
+	width:190px;
+}
+
+.image
+{
+	background-color:#0F9; 
+	height:100px;
+}
+.h
+{ 
+    width:500px;
+	column-span:all;
+	position:relative;
+	font-size:large;
+	font-size-adjust:inherit;
+	font-family:"Cooper Black";
+}
+.txt1
+{
+	background-color:#0F0;
+	width:1330px;
+}
+.txt2
+{
+	background-color:#999;
+	width:1330px;
+}
+.txt
+{
+	font-size:36px;
+	background-color:#FF3;
+	position:relative;
+	text-align:center;
+}
+.news
+{
+	background-color:#099;
+	width:630px;
+}
+.login
+{
+	top:300px;
+	left:300px;
+	background-color:#F96;
+	background-clip:border-box;
+	background-image:url(images(5).jpg);
+	text-align:center;
+	font-size:16px;
+	font-family:"Cooper Black";
+}
+.shl
+{
+	background-color:#06F;
+}
+/*---------------- menu tab----------------------*/
+
+/* style the outer div to give it width */
+.menu 
+{
+	height:50px;
+	 font-size:11px;
+	 padding:0px; 
+	 float:left; 
+	 width:1330px;
+}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none; height:28px; background:#267cb2;font-size:11px}
+
+/* style the sub-level lists */
+.menu ul ul {width: auto;font-size:11px}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;height:28px;line-height:28px;font-size:11px}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width: auto;height:auto;position:relative;line-height:1em; border-bottom:1px #2384BF solid;font-size:11px}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%;font-size:15px;text-decoration:none;color:#fff;background:#267cb2;padding:0 21px 0 17px;}
+.menu a.current{background:#3da1e0;}
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;background:#267cb2; color:#fff;width:12em;height:100%;line-height:1em; padding:0.5em 1em;}
+.menu ul table ul a, .menu ul table ul a:visited  {width:14em; width:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {position:absolute; left:0; top:0; font-size:1em; z-index:-1;}
+.menu ul ul table {lef\t:-1px;}
+.menu ul ul table ul.left {margin-lef\t:1px;}
+
+.menu li:hover {position:relative;}
+* html .menu a:hover {position:relative;}
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#3da1e0;}
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited {background:#3da1e0;}
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 {background:#3da1e0;}
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2 {background:#3da1e0;}
+
+/* style the level hovers */
+/* first */
+.menu a:hover {color:#fff;background:#3da1e0;}
+.menu :hover > a {color:#fff;background:#3da1e0;}
+/* second */
+.menu ul ul a:hover{color:#fff;background:#3da1e0;}
+.menu ul ul :hover > a {color:#fff;background:#3da1e0;}
+/* third */
+.menu ul ul ul a:hover {background:#3da1e0;}
+.menu ul ul ul :hover > a {background:#3da1e0;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:#eee;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:28px;left:0;width:14em;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:14em;top:0;width:14em;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul, .menu ul a:hover ul {visibility:visible; height:auto; padding-bottom:3em; background:transparent url(images/trans.gif);}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+
+<div class="news" align="center">
+<input type="text" class="txt" value="NEWS UPDATES"/>
+</div>
+<div class="txt1" style="color:#000">
+<a href="">FIVE YEARS IMPRISONMENT WITH FINE OF Rs. 10 LAKH TO Rs.15 LAKH TO THEN CHIEF MANAGER OF STATE BANK OF SAURASHTRA AND TWO PRIVATE PERSONS INCLUDING A CHARTERED ACCOUNTANT IN A CBI CASE -- dated 14.07.2016";
+</a>
+<h4>The Special Judge, CBI Cases, Karkardooma Courts, Delhi has sentenced Sh. K.K. Mishra, then Chief Manager, State Bank of Saurashtra, Lodhi Road, New Delhi &amp; Sh. V.B. Borar... </h4>
+</div>
+<div class="txt2" style="color:#000">
+<a href="">CBI REGISTERS THREE SEPARATE CASES AGAINST THEN CMO (FAMILY WELFARE); ADDITIONAL CMO AND OTHERS FOR CAUSING AN ALLEGED LOSS TO GOVT EXCHEQUER</a>
+<h4>The Central Bureau of Investigation has registered three separate cases U/s 120-B, 420, 468 &amp; 471 of IPC &amp; Section 13(2) r/w 13(1)(d) of P.C. Act, 1988, after conversion of Preliminary Enquiries against then Chief Medical Officer ... </h4>
+</div>

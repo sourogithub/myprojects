@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register</title>
+<link rel="stylesheet" href="loader.css">
+<marquee style="background-color:black;color:white;font-size:25px" behavior="scroll" direction="left">Register to our online portal to get updates</marquee>
+<h1 style="color:blue;" align="center">REGISTRATION FORM</h1>
+</head>
+<body>
+<div class="form">
+<form  action="Registered.html" method="post" style="font-size:25px"  align="center" >
+First Name:<input type="text"  style="font-size:15px" placeholder=Fname name="Fname" required>
+<p>Last Name:<input type="text" style="font-size:15px" placeholder=Lname name="Lname" required></p>
+Age:<input type="number" style="font-size:15px" placeholder=Age name="age" required>
+<p>Sex:<input type="radio" name="sex" value="Male" name="sex" checked >Male
+<input type="radio"  name="sex" value="Female" name="sex">Female</p>
+<p>D.O.B:<input type="date" style="font-size:15px" placeholder=D.O.B name="dob"required>
+  </p>
+<p>Country:<label>
+  <select name="country">
+    <option value="Ind">India</option>
+    <option value="ban">Bangladesh</option>
+    <option value="pak">Pakistan</option>
+    <option value="sri">Srilanka</option>
+    <option value="aus">Australia</option>
+    <option value="cin">China</option>
+    <option value="afgan">Afganisthan</option>
+    <option value="Uk">United Kingdom</option>
+    <option value="Us">United States</option>
+  </select>
+  </label></p>
+<p>District:<input type="text" style="font-size:15px" placeholder=District name="district"required></p>
+City:<input type="text" style="font-size:15px" placeholder=City name="city" required><p>
+<p>Profession:<input type="text" style="font-size:15px" placeholder=profession name="profession" required></p>
+<p>Email:<input type="text"  style="font-size:15px" placeholder=Email name="e-mail" required></p>
+Choose a username<br>
+<p>User_Id:<input type="text" placeholder=username name="Uname" required></p>
+<p>Password:<input type="text" placeholder=password name="pwd" required></p>
+<p><input type="submit" style="color:blue;  background-color:rgb(202,202,202)" value="I accept terms and conditions"></p>
+<button id="submit" class="button" value="submit" name="Register">submit</button>
+</div>
+</form>
+</body>
+</html>

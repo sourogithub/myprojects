@@ -1,0 +1,150 @@
+TD.HPColLeft {
+	VERTICAL-ALIGN: top
+}
+TD.HPColRight {
+	WIDTH: 200px; VERTICAL-ALIGN: top
+}
+TABLE.HPWebPart {
+	BORDER-BOTTOM: #9dacbf 1px solid; BORDER-LEFT: #9dacbf 1px solid; BACKGROUND-COLOR: #f9f9f9; BORDER-TOP: #9dacbf 1px solid; BORDER-RIGHT: #9dacbf 1px solid
+}
+TD.HPWPHeader {
+	BACKGROUND-COLOR: #a7cbe7; COLOR: #000000; FONT-SIZE: 8.5pt; FONT-WEIGHT: bold
+}
+TD.HPWPContent {
+	FONT-STYLE: normal; FONT-SIZE: 8.5pt; FONT-WEIGHT: normal
+}
+TD.HPWPContentLogo {
+	FONT-STYLE: normal; FONT-SIZE: 8.5pt; FONT-WEIGHT: normal
+}
+TD.HPWPContentLogo {
+	BACKGROUND-IMAGE: url(/Public/TestNewHP2005/images/ICPOLogoBG100.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%
+}
+UL.HPWPContent {
+	LIST-STYLE: none url(/Images/Navigation/next9.gif) outside; MARGIN-LEFT: 16px
+}
+TABLE.HPModule {
+	
+}
+TD.HPModHeader {
+	BORDER-BOTTOM: #6699cc thin dotted; BORDER-LEFT: #6699cc 4px solid; BACKGROUND-COLOR: #f9f9f9; COLOR: #000000; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+SPAN.HPModHeader {
+	BORDER-BOTTOM: #6699cc thin dotted; BORDER-LEFT: #6699cc 4px solid; BACKGROUND-COLOR: #f9f9f9; COLOR: #000000; FONT-SIZE: 12pt; FONT-WEIGHT: bold
+}
+TD.HPModContent {
+	FONT-STYLE: normal; FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+TD.HPModContentLogo {
+	FONT-STYLE: normal; FONT-SIZE: 9pt; FONT-WEIGHT: normal
+}
+TD.HPModContentLogo {
+	BACKGROUND-IMAGE: url(/Public/TestNewHP2005/images/ICPOLogoBG100.gif); BACKGROUND-REPEAT: no-repeat; BACKGROUND-POSITION: right 50%
+}
+#ModNews1 {
+	DISPLAY: block
+}
+#ModNews2 {
+	DISPLAY: block
+}
+#ModNews3 {
+	DISPLAY: block
+}
+#ModNews4 {
+	DISPLAY: block
+}
+#ModNews5 {
+	DISPLAY: block
+}
+#ModNews6 {
+	DISPLAY: block
+}
+#ModHighlights {
+	DISPLAY: block
+}
+#ModEvents {
+	DISPLAY: block
+}
+#ModNewOnline {
+	DISPLAY: block
+}
+#ModShortcuts {
+	DISPLAY: block
+}
+#WPNews1 {
+	DISPLAY: block
+}
+#WPNews2 {
+	DISPLAY: block
+}
+#WPNews3 {
+	DISPLAY: block
+}
+#WPNews4 {
+	DISPLAY: block
+}
+#WPNews5 {
+	DISPLAY: block
+}
+#WPNews6 {
+	DISPLAY: block
+}
+#WPHighlights {
+	DISPLAY: block
+}
+#WPEvents {
+	DISPLAY: block
+}
+#WPNewOnline {
+	DISPLAY: block
+}
+#WPShortcuts {
+	DISPLAY: block
+}
+UL.WPcrime {
+	PADDING-BOTTOM: 4px; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; PADDING-TOP: 4px
+}
+LI.WPcrime {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/Public/TestNewHP2005/images/vignetteW32_01.gif); PADDING-TOP: 2px
+}
+LI.WPcrimeFingerprint {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/fingerprintWH40.gif); PADDING-TOP: 2px
+}
+LI.WPcrimeDrugs {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/drugsWH40.gif); PADDING-TOP: 2px
+}
+LI.WPcrimeTerrorism {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/terrorismWH40.gif); PADDING-TOP: 2px
+}
+LI.WPcrimeFinCrime {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/financialCrimeWH40.gif); PADDING-TOP: 2px
+}
+LI.WPcrimeFugitives {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/noticesWH40.gif); PADDING-TOP: 2px
+}
+LI.WPcrimeTHB {
+	LIST-STYLE-POSITION: outside; PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/worksofartWH40.gif); PADDING-TOP: 2px
+}
+LI.ModCrime {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/Public/TestNewHP2005/images/vignetteW32_01.gif)
+}
+LI.ModCrimeFingerprint {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/fingerprintWH40.gif)
+}
+LI.ModCrimeDrugs {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/drugsWH40.gif)
+}
+LI.ModCrimeTerrorism {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/terrorismWH40.gif)
+}
+LI.ModCrimeFinCrime {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/financialCrimeWH40.gif)
+}
+LI.ModCrimeFugitives {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/noticesWH40.gif)
+}
+LI.ModCrimeTHB {
+	LIST-STYLE-POSITION: outside; PADDING-LEFT: 32px; HEIGHT: 42px; VERTICAL-ALIGN: middle; LIST-STYLE-IMAGE: url(/public/hpConfig/images/vignettes/worksofartWH40.gif)
+}
+TD.HPWPSeparator {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: left; BORDER-LEFT: #ffffff 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: #eeeeee; FONT-STYLE: normal; PADDING-LEFT: 3px; WIDTH: 144px; PADDING-RIGHT: 3px; FONT-FAMILY: verdana; HEIGHT: 24px; COLOR: black; FONT-SIZE: 11px; BORDER-TOP: #ffffff 1px solid; CURSOR: pointer; FONT-WEIGHT: normal; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 3px
+}

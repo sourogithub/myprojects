@@ -1,0 +1,26 @@
+a img, :link img, :visited img { border:medium none; }
+#slide {
+float:left;
+padding: 0 0 0 5px;
+height: 197px;
+width: 300px;
+overflow: hidden;
+}
+#photos {
+}
+.photo {
+float:left;
+background: #FFF;
+border: 1px solid #CCC;
+padding: 5px 5px 20px 5px;
+margin-bottom:30px;
+}
+#slide-controls {
+margin: 178px 5px;
+padding-right:5px;
+position:relative;
+z-index:99;
+}
+#slide-controls img {
+cursor:pointer;
+}
