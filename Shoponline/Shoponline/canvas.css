@@ -1,0 +1,12 @@
+
+* {margin: 0; padding: 0;}
+body {
+	/*You can use any kind of background here.*/
+	background: black;
+	
+}
+canvas {
+	display: block;
+	position:absolute;
+	z-index:-10;
+}

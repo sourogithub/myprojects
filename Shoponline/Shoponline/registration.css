@@ -1,0 +1,51 @@
+body
+{
+	margin:0 auto;
+	backgroung-repeat:none;
+	background-size:100% 720px;
+}
+
+
+.container
+{
+	width:700px;
+	height:600px;
+	text-align:center;
+	background-color:rgba(52,73,94,0.7);
+	border-radius:6px;
+	margin:0 auto;
+	margin-top:150px;
+}
+.container img
+{
+	width:150px;
+	height:150px;
+	margin-top:-60px;
+	margin-bottom:30px;
+}
+
+.form-input input
+{
+	width:200px;
+	height:30px;
+	font-size:18px;
+	margin-bottom:20px;
+	background-color:#fff;
+	margin-top:20px;
+	padding-left:20px;
+}
+.btn-reg
+{
+	padding:10px 25px;
+	color:#fff;
+	background-color:#2ECC71;
+	border-radius:4px;
+	border:none;
+	border-bottom:4px solid #27AE60;
+	margin-bottom:9px;
+	cursor:pointer
+}
+.container h4 a
+{
+	color:white;
+}

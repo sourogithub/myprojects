@@ -1,0 +1,211 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.shadow
+{
+	background-color:blue;
+	position:relative;
+	top:27px;
+	z-index:12;
+}
+.shadow h1
+{
+	display-inline:block;
+}
+.searchbox
+{
+	position:absolute;
+	top:25px;
+	left:50%;
+}
+.searchbar
+{
+	border:1px solid #000000;
+	font-size:16px;
+	padding:10px;
+	outline:none;
+	width:350px;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-bottom-left-radius:10px;
+	-moz-border-radius-topleft:10px;
+	-moz-border-radius-bottomleft:10px;
+	border-top-left-radius:10px;
+	border-bottom-left-radius:10px;
+	border-right:none;
+	
+}
+.searchbtn
+{
+	border: 1px solid #000000;
+	font-size:16px;
+	padding:10px;
+	background: #f1d829;
+	font-weight:bold;
+	cursor:pointer;
+	outline:none;
+	-webkit-border-top-right-radius: 10px;
+	-webkit-border-bottom-right-radius:10px;
+	-moz-border-radius-topright:10px;
+	-moz-border-radius-bottomright:10px;
+	border-top-right-radius:10px;
+	border-bottom-right-radius:10px;border-right:none;
+}
+.searchbtn:hover
+{
+	background:#f6e049;
+}
+
+
+.menu 
+{
+	height:50px;
+	 font-size:15px;
+	 float:left; 
+	width:100%;
+	 top:0px;
+	 margin-left:0px;
+	 padding:0px;
+	 
+	
+}
+
+.marquee
+{
+	height:35px;
+	background-color:black;
+	color:white;
+	font-size:15px;
+	position:absolute;
+	top:115px;
+	width:100%;
+	line-height:35px;
+	text-align:center;
+}
+
+
+.menu ul {padding:0;margin:0;list-style-type:none; height:28px; background:#267cb2;font-size:11px}
+
+.menu ul ul {width: auto;font-size:11px}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;height:28px;line-height:28px;font-size:11px}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width: auto;height:auto;position:relative;line-height:1em; border-bottom:1px #2384BF solid;font-size:11px}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%;font-size:15px;text-decoration:none;color:#fff;background:#267cb2;padding:0 21px 0 17px;}
+.menu a.current{background:#3da1e0;}
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;background:#267cb2; color:#fff;width:12em;height:100%;line-height:1em; padding:0.5em 1em;}
+.menu ul table ul a, .menu ul table ul a:visited  {width:14em; width:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {position:absolute; left:0; top:0; font-size:1em; z-index:-1;}
+.menu ul ul table {lef\t:-1px;}
+.menu ul ul table ul.left {margin-lef\t:1px;}
+
+.menu li:hover {position:relative;}
+* html .menu a:hover {position:relative;}
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#3da1e0;}
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited {background:#3da1e0;}
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 {background:#3da1e0;}
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2 {background:#3da1e0;}
+
+/* style the level hovers */
+/* first */
+.menu a:hover {color:#fff;background:#3da1e0;}
+.menu :hover > a {color:#fff;background:#3da1e0;}
+/* second */
+.menu ul ul a:hover{color:#fff;background:#3da1e0;}
+.menu ul ul :hover > a {color:#fff;background:#3da1e0;}
+/* third */
+.menu ul ul ul a:hover {background:#3da1e0;}
+.menu ul ul ul :hover > a {background:#3da1e0;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:#eee;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:28px;left:0;width:14em;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:14em;top:0;width:14em;}
+
+/* position the third level flyout menu for a left flyout */
+.menu ul ul ul.left {left:-14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul li:hover ul, .menu ul a:hover ul {visibility:visible; height:auto; padding-bottom:3em; background:transparent url(images/trans.gif);}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+.items
+{
+	margin:0 auto;
+	margin-top:60px;
+	position:relative;
+	z-index:30;
+	
+}
+.items ul
+ {
+ list-style:none;
+ margin:0px;
+	padding:0px;
+ }
+.items ul li
+{
+	background-color:#f2f2f2;
+	border:1px solid white;
+	height: 35px;
+	line-height:35px;
+	float:left;
+	position: relative;
+	text-align:center;
+	width:370px;
+	
+}
+.items ul li a {
+	text-decoration:none;
+	display:block;
+	
+}
+.items ul li a:hover
+{
+	color: #fff;
+
+        background: #939393;
+
+}
+.items ul ul {
+	position:absolute;
+	display:none;
+	
+	
+}
+.items ul li:hover >ul
+{
+	display:block;
+}
+
+.items ul ul ul
+{
+	margin-left:370px;
+	top:0px;
+	
+}
