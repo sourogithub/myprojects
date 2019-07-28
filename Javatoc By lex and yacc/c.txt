@@ -1,0 +1,42 @@
+struct Box1
+{
+int (*fun1)();
+void (*fun2)(int x,int y);
+
+};
+int fun11()
+{
+return ;
+}
+void fun21(int x,int y)
+{
+printf("It has two arguments ");
+}
+struct Box2
+{
+void (*fun3)();
+int (*fun4)(struct Box1 b);
+
+};
+void fun31()
+{
+printf("It has no arguments ");
+}
+int fun41(struct Box1 b)
+{
+printf("It has a object as an argument ");
+}
+void main()
+{
+struct Box1 mybox1;
+struct Box2 mybox2;
+mybox1.fun2=fun21;
+fun21(3,4);
+mybox2.fun4=fun41;
+fun41(mybox1);
+mybox1.fun1=fun11;
+fun11();
+mybox2.fun3=fun31;
+fun31();
+printf("passing object as function argument ");
+}

@@ -1,0 +1,39 @@
+struct Box
+{
+int height,width,length;
+void (*area)(int height,int width);
+void (*area)();
+void (*volume)(int height,int width,int length);
+void (*volume)();
+
+};
+void area1(int height,int width)
+{
+printf("Area is found ");
+}
+void area1()
+{
+printf("nothing is found ");
+}
+void volume1(int height,int width,int length)
+{
+printf("volume is found ");
+}
+void volume1()
+{
+printf("nothing is found ");
+}
+void main()
+{
+struct Box mybox1;
+struct Box mybox2;
+mybox1.area=area1;
+area1(3,5);
+mybox2.area=area1;
+area1();
+mybox1.volume=volume1;
+volume1(3,5,7);
+mybox2.volume=volume1;
+volume1();
+printf("method overloading ");
+}

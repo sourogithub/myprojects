@@ -1,0 +1,17 @@
+class Joy
+{
+int i;
+}
+class Po890
+{
+int k;
+}
+class D90og
+{
+public static void main(String args[])
+{
+int k;
+}
+}
+
+

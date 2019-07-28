@@ -1,0 +1,37 @@
+class Box 
+{
+int height,width,length;
+void area(int height,int width)
+{
+system.out.print("Area is found");
+}
+void area()
+{
+system.out.println("nothing is found");
+}
+void volume(int height,int width,int length)
+{
+system.out.print("volume is found");
+}
+void volume()
+{
+system.out.print("nothing is found");
+}
+}
+class BoxDemo3 {
+  public static void main(String args[])
+ {
+ Box mybox1 = new Box();
+ Box mybox2 = new Box();
+ 
+ mybox1.area(3,5);
+ mybox2.area();
+ mybox1.volume(3,5,7);
+ mybox2.volume();
+ system.out.print("method overloading");
+}
+}
+
+
+
+

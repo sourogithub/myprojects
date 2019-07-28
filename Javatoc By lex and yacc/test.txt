@@ -1,0 +1,34 @@
+class Box1 {
+
+int fun1()
+{
+return 0;
+}
+void fun2(int x,int y)
+{
+system.out.print("It has two arguments");
+}
+}
+class Box2 {
+void fun3()
+{
+system.out.print("It has no arguments");
+}
+int fun4(Box1 b)
+{
+system.out.print("It has a object as an argument");
+}
+}
+class BoxDemo3 {
+  public static void main(String args[])
+ {
+ Box1 mybox1 = new Box1();
+ Box2 mybox2 = new Box2();
+mybox1.fun2(3,4);
+  mybox2.fun4(mybox1);
+
+mybox1.fun1();
+  mybox2.fun3();
+system.out.print("passing object as function argument"); 
+}
+}
