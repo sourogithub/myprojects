@@ -1,0 +1,29 @@
+Dear Intern,
+
+Greetings!!!
+
+We are happy to receive your application. We hope you will have a good challenging & learning experience being associated with us. Thank you for applying. 
+As this is a work from home internship, we have to be very well convinced about the candidature in terms of his/her openness to learn, commitment, passion, attitude, creativity, mathematical & programming skills, analytical thinking etc. So, as a part of the selection process, kindly do the following assignment, and revert back as and when you have completed it. Last date is 30/06/2019. 
+
+Assignment Task:-
+
+Study the following attached research article, and build different classifiers (Naive Bayes, KNN, RF, SVM, NN) using language of your choice (Python, R). 
+Use their raw datasets, and validate the results. 
+https://zenodo.org/record/1146109#.XO5ByIgzbIU
+
+Present your conclusion/summary as a report. 
+
+Note:- 
+Sensor calibration is a method of improving sensor performance by removing structural errors in the sensor outputs. Structural errors are differences between a sensors expected output and its measured output, which show up consistently every time a new measurement is taken. Any of these errors that are repeatable can be calculated during calibration so that during actual end-use the measurements made by the sensor can be compensated in real-time to digitally remove any errors. Calibration provides a means of providing enhanced performance by improving the overall accuracy of the underlying sensors.
+
+
+Send, the assignment as a zip file with your name as the zip file name & the category applied for. Eg: Hari_ML.zip to dmachine.solutions@gmail.com
+Also, the zip should include the Code, README file, explain the way you have proceeded with the tasks providing report.
+
+
+Good Luck,
+Team DRMachine
+
+
+
+
